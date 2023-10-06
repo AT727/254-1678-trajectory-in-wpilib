@@ -43,9 +43,7 @@ public class TrajectoryGenerator {
         for the correct alliance depending on the current alliance color while using PathPlannerLib\'s path following commands.
         In order for this to work correctly, you MUST create all of your paths on the blue (left) side of the field.
 
-        yeah I copied from path planner. tbh idk if this works b/c 
-        if blue = (1, 0) reversed - going backwards
-        then red = (-1, 0) reversed - going forwards
+        yeah I copied from path planner
         */
 
         Translation2d transformedTranslation = new Translation2d(pose.getX(), fieldWidth - pose.getY());
